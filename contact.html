@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Realmsco Performance Studio to schedule a consultation or tour."
+    />
+    <title>Realmsco Performance Studio | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contact">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo" aria-label="Realmsco home">
+          <span class="logo-mark" aria-hidden="true">R</span>
+          <span class="logo-text">
+            <strong>Realmsco</strong>
+            <small>Performance Studio</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav aria-label="Primary">
+          <ul id="primary-navigation" class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="studio.html">Studio</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button" aria-label="Toggle theme">
+            <span class="theme-icon" aria-hidden="true">MOON</span>
+          </button>
+          <a href="contact.html" class="btn btn-primary">Book a Consult</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section reveal">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h1>Book your consultation at Realmsco.</h1>
+            <p class="lede">
+              Tell us your goals and preferred training times. A coach will follow up within one business day
+              with a personalized plan and next steps.
+            </p>
+            <div class="hero-actions">
+              <a href="schedule.html" class="btn btn-secondary">View Class Times</a>
+            </div>
+          </div>
+          <aside class="hero-visual" aria-label="Contact details">
+            <div class="hero-card">
+              <h2>Studio Contact</h2>
+              <ul class="pill-list">
+                <li>Phone: (415) 555-0187</li>
+                <li>Email: hello@realmsco.com</li>
+                <li>Address: 1220 Market Street, Suite 210</li>
+                <li>Hours: Mon-Sat 6:00 AM to 8:00 PM</li>
+              </ul>
+              <p class="badge">Tours available by appointment.</p>
+            </div>
+            <div class="hero-art">
+              <div class="art-panel"></div>
+              <div class="art-panel alt"></div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container two-col">
+          <article>
+            <p class="eyebrow">Get Started</p>
+            <h2>Tell us about your goals.</h2>
+            <p>We will design your first 90 day roadmap with training, recovery, and scheduling details.</p>
+          </article>
+          <form id="leadForm" class="panel" novalidate>
+            <label>Name<input name="name" required /></label><span class="error" data-for="name"></span>
+            <label>Email<input name="email" type="email" required /></label><span class="error" data-for="email"></span>
+            <label>Phone<input name="phone" type="tel" required /></label><span class="error" data-for="phone"></span>
+            <label>Goal<select name="goal" required>
+              <option value="">Select goal</option>
+              <option>Fat Loss</option>
+              <option>Build Strength</option>
+              <option>Athletic Performance</option>
+              <option>Mobility and Recovery</option>
+            </select></label><span class="error" data-for="goal"></span>
+            <label>Preferred Time<select name="time" required>
+              <option value="">Select time</option>
+              <option>Early Morning</option>
+              <option>Midday</option>
+              <option>Evening</option>
+              <option>Weekend</option>
+            </select></label><span class="error" data-for="time"></span>
+            <label>Message<textarea name="message" placeholder="Tell us about your training history."></textarea></label>
+            <button class="btn btn-primary" type="submit">Submit Request</button>
+            <p id="formSuccess" class="success-message" hidden>Thanks! We will contact you within 24 hours.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>Realmsco Performance Studio</h2>
+          <p>1220 Market Street, Suite 210, San Francisco, CA</p>
+          <p>Hours: Mon-Sat 6:00 AM to 8:00 PM</p>
+          <p>Email: hello@realmsco.com | Phone: (415) 555-0187</p>
+        </div>
+        <div class="map-card" role="img" aria-label="Map to Realmsco">
+          <h3>Visit the studio</h3>
+          <p>Two blocks from Montgomery Station with validated parking in the Market Garage.</p>
+          <p>Walk in: 1220 Market Street, Suite 210.</p>
+        </div>
+        <div>
+          <div class="socials" aria-label="Social media links">
+            <a href="https://www.instagram.com/realmsco" aria-label="Instagram">IG</a>
+            <a href="https://www.youtube.com/@realmsco" aria-label="YouTube">YT</a>
+            <a href="https://www.linkedin.com/company/realmsco" aria-label="LinkedIn">IN</a>
+          </div>
+          <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms</a></p>
+          <p class="muted">Copyright <span data-year></span> Realmsco. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">Top</button>
+<script src="script.js"></script>
+  </body>
+</html>
+

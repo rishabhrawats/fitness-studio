@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="View the Realmsco training schedule, class times, and coaching availability."
+    />
+    <title>Realmsco Performance Studio | Schedule</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="schedule">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo" aria-label="Realmsco home">
+          <span class="logo-mark" aria-hidden="true">R</span>
+          <span class="logo-text">
+            <strong>Realmsco</strong>
+            <small>Performance Studio</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav aria-label="Primary">
+          <ul id="primary-navigation" class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="studio.html">Studio</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button" aria-label="Toggle theme">
+            <span class="theme-icon" aria-hidden="true">MOON</span>
+          </button>
+          <a href="contact.html" class="btn btn-primary">Book a Consult</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section reveal">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Schedule</p>
+            <h1>Training times that fit your week.</h1>
+            <p class="lede">
+              Classes run in small groups with reserved slots. Personal training is scheduled separately
+              based on coach availability and your goals.
+            </p>
+            <div class="hero-actions">
+              <a href="contact.html" class="btn btn-primary">Reserve a Slot</a>
+              <a href="programs.html" class="btn btn-secondary">Explore Programs</a>
+            </div>
+          </div>
+          <aside class="hero-visual" aria-label="Scheduling highlights">
+            <div class="hero-card">
+              <h2>Studio Hours</h2>
+              <ul class="pill-list">
+                <li>Mon-Thu: 6:00 AM to 8:00 PM</li>
+                <li>Fri: 6:00 AM to 7:00 PM</li>
+                <li>Sat: 8:00 AM to 1:00 PM</li>
+                <li>Sun: Recovery sessions only</li>
+              </ul>
+              <p class="badge">Walk ins are welcome with a reservation.</p>
+            </div>
+            <div class="hero-art">
+              <div class="art-panel"></div>
+              <div class="art-panel alt"></div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container">
+          <p class="eyebrow">Weekly Classes</p>
+          <h2>Reserve a class time that fits.</h2>
+          <div class="filters" role="tablist" aria-label="Filter classes by day">
+            <button class="filter-btn active" data-day="all" role="tab" aria-selected="true">All</button>
+            <button class="filter-btn" data-day="mon" role="tab">Mon</button>
+            <button class="filter-btn" data-day="tue" role="tab">Tue</button>
+            <button class="filter-btn" data-day="wed" role="tab">Wed</button>
+            <button class="filter-btn" data-day="thu" role="tab">Thu</button>
+            <button class="filter-btn" data-day="sat" role="tab">Sat</button>
+          </div>
+          <div class="schedule-grid" aria-live="polite">
+            <article class="schedule-card" data-day="mon"><h3>6:00 AM</h3><p>Strength Foundations</p></article>
+            <article class="schedule-card" data-day="mon"><h3>12:15 PM</h3><p>Lunch Lift</p></article>
+            <article class="schedule-card" data-day="tue"><h3>7:00 AM</h3><p>Power and Speed</p></article>
+            <article class="schedule-card" data-day="wed"><h3>6:30 AM</h3><p>Metabolic Conditioning</p></article>
+            <article class="schedule-card" data-day="thu"><h3>5:30 PM</h3><p>Strength Cycle</p></article>
+            <article class="schedule-card" data-day="sat"><h3>9:00 AM</h3><p>Athlete Performance Lab</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container split">
+          <article>
+            <p class="eyebrow">Personal Training</p>
+            <h2>Private coaching windows.</h2>
+            <p>
+              Personal training sessions are scheduled in advance with your coach. We keep limited slots
+              to ensure quality and flexibility for every member.
+            </p>
+          </article>
+          <div class="feature-grid">
+            <article class="card">
+              <h3>Morning Slots</h3>
+              <p>Mon-Fri between 6:00 AM and 10:00 AM.</p>
+            </article>
+            <article class="card">
+              <h3>Midday Slots</h3>
+              <p>Mon-Thu between 11:30 AM and 2:30 PM.</p>
+            </article>
+            <article class="card">
+              <h3>Evening Slots</h3>
+              <p>Mon-Thu between 4:30 PM and 8:00 PM.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>Realmsco Performance Studio</h2>
+          <p>1220 Market Street, Suite 210, San Francisco, CA</p>
+          <p>Hours: Mon-Sat 6:00 AM to 8:00 PM</p>
+          <p>Email: hello@realmsco.com | Phone: (415) 555-0187</p>
+        </div>
+        <div class="map-card" role="img" aria-label="Map to Realmsco">
+          <h3>Visit the studio</h3>
+          <p>Two blocks from Montgomery Station with validated parking in the Market Garage.</p>
+          <p>Walk in: 1220 Market Street, Suite 210.</p>
+        </div>
+        <div>
+          <div class="socials" aria-label="Social media links">
+            <a href="https://www.instagram.com/realmsco" aria-label="Instagram">IG</a>
+            <a href="https://www.youtube.com/@realmsco" aria-label="YouTube">YT</a>
+            <a href="https://www.linkedin.com/company/realmsco" aria-label="LinkedIn">IN</a>
+          </div>
+          <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms</a></p>
+          <p class="muted">Copyright <span data-year></span> Realmsco. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">Top</button>
+<script src="script.js"></script>
+  </body>
+</html>
+
